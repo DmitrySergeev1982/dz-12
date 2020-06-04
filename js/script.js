@@ -11,6 +11,7 @@ function fetchData(url) {
     xhr.onload = () => resolve(JSON.parse(xhr.response))
     xhr.onerror = () => reject(xhr.statusText)
     xhr.send()
+    
     })
 }
 
