@@ -1,0 +1,46 @@
+.weather_now{
+    background-color: rgb(60, 148, 60);
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    margin: 0px 50px;
+    height: 325px;
+
+}
+
+
+.weather_now_main{
+    text-align: center;
+}
+.wind_now{
+    display: flex;
+    text-align: center;
+    
+}
+.wind_direction{
+    width: 50%;
+}
+.wind_speed{
+    width: 50%;
+}
+.weather_later{
+    padding: 5px 10px;
+    margin: 0px 50px;
+    display: flex;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+      
+}
+.weather_later_time{
+    width: 33%;
+    
+}
+.weather_later_icon{
+    width: 33%;
+    text-align: center;
+}
+.weather_later_temp{
+    width: 33%;
+    text-align: right;
+    
+}
