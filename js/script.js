@@ -27,6 +27,7 @@ fetchData(urlWeather)
 })  
     .then(data5 => {
     console.log(data5)
+    
     renderWeatherWidget5(data5)
 
     
